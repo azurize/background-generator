@@ -5,6 +5,7 @@ var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 
+// Function to randomize colors
 function randomizeColors() {
     color1.value = '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
     color2.value = '#'+(Math.random() * 0xFFFFFF << 0).toString(16).padStart(6, '0');
