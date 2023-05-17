@@ -8,6 +8,8 @@ var color2 = document.querySelector(".color2");
 function setGradient() {
   body.style.background =
     "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+
+  css.textContent = "CSS Background Value: " + body.style.background + ";";
 }
 
 // Adjusting gradient based on color1 value
