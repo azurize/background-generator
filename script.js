@@ -25,9 +25,9 @@ color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 
 // Display initial value of gradient
-window.addEventListener("load", randomizeColors)
+window.addEventListener("load", randomizeColors);
 window.addEventListener("load", setGradient);
 
 // Randomizing the gradient via button
-button.addEventListener("click", randomizeColors)
-button.addEventListener("click", setGradient)
+button.addEventListener("click", randomizeColors);
+button.addEventListener("click", setGradient);
