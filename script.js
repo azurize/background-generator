@@ -17,3 +17,6 @@ color1.addEventListener("input", setGradient);
 
 // Adjusting gradient based on color2 value
 color2.addEventListener("input", setGradient);
+
+// Display initial value of gradient
+window.addEventListener("load", setGradient)
